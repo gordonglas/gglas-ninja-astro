@@ -1,0 +1,102 @@
+---
+title: Nintendo/Apple business book reviews - October 2022
+description: Nintendo/Apple business book reviews - October 2022
+pubDate: 2022-10-24
+published: true
+tags:
+  - Apple
+  - Books
+  - Business
+  - Nintendo
+---
+
+Here I discuss some books I read recently.  
+These are all basically business related, but also video game and computer related.
+
+# Disrupting The Game (by Reggie Fils-Aimé)
+
+![](disrupting-the-game-cover.png)
+
+Reggie was best known for his successful role as COO at Nintendo of America.
+
+In his book, he goes through his early life hardship, then through each of the experiences he had at each of the companies he worked at throughout his career, and along the way has some sound advice for the reader.
+
+His interactions with the late Satoru Iwata, then the president of Nintendo Co Ltd in Japan, were interesting. Reggie is proud he pushed his point of view when it made sense, and definitely had a huge impact helping Nintendo with strong sales of their innovative game systems and games, especially during a time when Nintendo was struggling against Sony and Microsoft.
+
+You can view [his first E3 (in 2004)](https://www.youtube.com/watch?v=89GB6bC9_N4) where he iconically introduced himself:
+
+*"My name is Reggie. I'm about kickin' ass. I'm about takin' names. And we're about making games."*
+
+You can imagine how the translation of that went over while he was trying to get it approved from Japanese management (Iwata and others). Actually, he mentions it in the book... In the meeting they said: *"Reggie, why are you so angry?"* 😂
+
+He got the nickname `The Regginator` from his hard-ass style, something that I believe Nintendo wasn't known for prior.
+![The Regginator](the-regginator.jpg)
+
+I also liked his explaination of why a lot of western games wouldn't work well in Japan. I don't remember if he used a specific game as an example, but lets just go with Call of Duty (which I never play myself.) Because Japan is small and crowded, a lot of people live in smaller homes or appartments with their families, and so most of them have a communal living room where the TV is. So playing Call of Duty with grandma watching would be a big no-no.
+
+Reggie also mentioned how Shigeru Miyamoto (of Mario/Zelda/etc fame) would carry around a notepad/sketchpad everywhere to write down his ideas. This is important because we think of game design ideas when we're least expecting them. I don't carry around a notepad, but I will type up an idea on my phone if I think of something, and this is what prompted me to do it.
+
+And though Reggie sounds like a hard-ass and pushes his points of view, you can tell he still has respect for people and fellow employees, and he had a genuine friendship with Iwata.
+
+I enjoyed his book, and some of his advice will stick with me.
+
+[Publisher book page - Disrupting The Game](https://www.harpercollinsleadership.com/9781400226672/disrupting-the-game/)
+
+# Ask Iwata
+
+![](ask-iwata-cover.png)
+
+This book is an organized collection of posts from Satoru Iwata, who was best know as the President of Nintendo Co Ltd in Japan, but he was also a skilled game programmer.
+
+Watch his [speech at GDC 2005](https://www.youtube.com/watch?v=RMrj8gdUfCU) where he iconically introduces himself:
+
+*"On my corporate business card, I'm a President. In my mind, I'm a Game Developer. But in my heart, I am a Gamer."*
+
+Obviously, Japanese business and culture is so different from it's Western counterpart. But even so, Iwata was very much the opposite of Steve Jobs with respect to feelings towards others and always wanting to make others happy.
+
+I like how he explained game design in terms of how players feel rewarded by doing certain tasks, and how it applied to things outside of video games.
+
+*"At first, we give them (the tasks) all our energy. That could mean time, labor, or money. Once we've done our best, we have a response to what we've done, and whatever feeling we experience is our reward.
+When the reward feels like it's greater than the energy and effort we've expended, we don't give up. But when the result of all our efforts is a disappointment, we tend to fail.
+I think those conditions are essential to making games that people want to play, and this same logic helps to explain what makes or breaks a person's mission (to complete a task.)"*
+
+Iwata said, the next hardware that Nintendo made must not simply repackage the same old gaming experience. Nintendo is always pushing for innovation.
+
+I liked how he said Miyamoto would ask employees randomly to play his latest version of the game while he watches them play over their shoulder. He did this to discover places he needed to tweak his game if something wasn't obvious enough, or if the player got stuck. To spot confusing things that weren't meant to be confusing.
+
+I especially loved the info related to development of Earthbound. It's one of my favorite games of all time, and knowing Iwata's big role in shaping the final version makes him a very important person in my life, along with Shigesato Itoi.
+
+It was a real pleasure to read this book. Now I want to read more about Shiguru Miyamoto, Shigesato Itoi and other game industry veterans.
+
+[Distributor book page - Ask Iwata](https://www.simonandschuster.com/books/Ask-Iwata/Sam-Bett/9781974721542)
+
+# Steve Jobs (by Walter Isaacson)
+
+![](steve-jobs-cover.png)
+
+Now, before I start, don't consider this a negative review of the book, but rather a negative review of the person it's about. The book itself is fantastic. With that in mind...
+
+It's no secret that Jobs was not a nice person, and had almost no empathy, so this book was pretty hard for me to get through. I had been putting it off because I knew the person I'd be reading about wouldn't be something that aligns with who I am. But I finally read through it. It's well written, I just don't like Jobs. There are so many negative words you could use to describe him. As a fellow employee (or even people outside Apple), you were either a hero, or you were shit. Employees called this the *Hero/Shit Dichotomy*, and your status could change multiple times, in the same day. Employees would tell him of some new idea, he'd shoot it down, then later he would tell them to their face that he came up with this great idea as if it was his own, and nobody stood up to him about it! He basically abandoned his first daughter (then had the audacity to name a new computer after her!), and didn't spend much time with his other kids either. He said to Walter, the author, that he wanted him to write the book so his kids could see why he was the way he was, but I don't think there's any excuse.
+
+He was also really nice to John Sculley, who he brought over from Pepsi to run Apple. But then he was really manipulative of him. He would also go back and forth to being a Hero or Shit multiple times. It makes you wonder if any of Steve's "friendship" with him was genuine at all.
+
+He surrounded himself with only "A players". If you were a "B player", you were not wanted, you were Shit. He loved bringing Art together with Technology, and it still shows in their (albeit proprietary/closed/walled-garden) products. Multiple times in the book, you can see that Steve attributes his artistic side with taking LSD.
+
+He no doubt did great things with Pixar and possibly saved Disney with the reverse aquisition. I thought this was one of the more interesting parts of his story.
+
+Did I get any advice or message out of his story? Not really. I just can't agree with his methods or lifestyle. I guess you could say, what I got out of it, is that I don't want to be like Steve Jobs. I did enjoy his story though (and Walter's writing is great), it makes for an interesting story, that's for sure. But Iwata shows us that you don't need to be an asshole to get employees to make innovative products.
+
+One big reason I wanted to read this was because the first computer our family had was an Apple IIc, and I wanted to learn more about the story behind that, which is really all The Woz and less Jobs. I later had a Macintosh Plus, and somewhat more recently a couple Macbook Pros.
+
+Note there is a newer 10th anniversary edition, but I read the original.  
+[Publisher book page - Steve Jobs](https://www.simonandschuster.com/books/Steve-Jobs/Walter-Isaacson/9781982176860)
+
+# Common theme
+
+One of the common themes I got from these books is basically one we already know, which is that we must `continually innovate` to make new products stand out.
+
+I think this is why I've been so dissapointed with the PlayStation 5. It doesn't really do anything different than the PS4. Sure, it has an SSD, so load times are better, but that doesn't cause game design to do anything new. Like Iwata said, if you just bring out the same product again, it becomes meaningless.
+
+Another common theme about Nintendo and Apple is: `Less is more`. Too many features or game design ideas detract from the hardware or gameplay, increase complexity both from a user and development standpoint, and require more resources to make. Part of this is also to only focus on a few things at once. In the case of Apple, this meant only focusing on three new products at one time.
+
+Out of these books, I definitely enjoyed *"Ask Iwata"* the most, followed by *"Disrupting The Game".* I miss seeing both Iwata and Reggie in events and product announcements online. Admittedly, despite not agreeing with his methods, I also miss Steve Jobs announcing the next Apple device. I realize nobody could ever take their place, so Nintendo of Japan, Nintendo of America, and Apple must all do something different to move on.
