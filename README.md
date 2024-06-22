@@ -1,4 +1,8 @@
-# Astro Starter Kit: Blog
+# gglas.ninja
+
+Code for Astro version of blog [https://gglas.ninja](https://gglas.ninja) (Work in progress)
+
+## Astro Starter Kit: Blog
 
 ```sh
 npm create astro@latest -- --template blog
