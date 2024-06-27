@@ -6,6 +6,10 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import FormattedDate from '../components/FormattedDate.astro';
 import {getPublishedPostsByDateDesc, createExcerpt} from '../lib/blog.ts';
 
+// our custom css overrides
+import '../styles/site.css'         // general overrides
+import '../styles/theme-dark.css'   // dark theme overrides
+
 const posts = await getPublishedPostsByDateDesc();
 ---
 
@@ -13,7 +17,7 @@ const posts = await getPublishedPostsByDateDesc();
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
+		<!-- <style>
 			main {
 				width: 960px;
 			}
@@ -81,7 +85,7 @@ const posts = await getPublishedPostsByDateDesc();
 					font-size: 1.563em;
 				}
 			}
-		</style>
+		</style> -->
 	</head>
 	<body>
 		<Header />

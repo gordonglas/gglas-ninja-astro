@@ -1,7 +1,10 @@
 {
-  "name": "gglas-ninja-astro",
+  "name": "gglas-ninja",
   "type": "module",
-  "version": "0.0.1",
+  "version": "2.0.0",
+  "private": true,
+  "description": "gglas-ninja blog",
+  "author": "gglas",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -13,7 +16,10 @@
     "@astrojs/mdx": "^3.1.1",
     "@astrojs/rss": "^4.0.6",
     "@astrojs/sitemap": "^3.1.6",
+    "@popperjs/core": "^2.11.8",
     "astro": "^4.10.3",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
     "markdown-it": "^14.1.0"
   }
 }

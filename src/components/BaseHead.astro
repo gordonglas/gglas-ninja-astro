@@ -1,7 +1,12 @@
 ---
 // Import the global.css file here so that it is included on
 // all pages through the use of the <BaseHead /> component.
-import '../styles/global.css';
+//import '../styles/global.css';
+
+// bootstrap css
+//import 'bootstrap/dist/css/bootstrap.min.css'  // default light theme
+import '../styles/bootstrap5-dark.css';  // our custom built darkly theme
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 interface Props {
 	title: string;
@@ -50,3 +55,9 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 
 <!-- For Mastodon link verification: https://docs.joinmastodon.org/user/profile/#verification -->
 <link href="https://mastodon.gamedev.place/@kefka" rel="me" />
+
+<!-- bootstrap js -->
+<!-- notice how these are relative paths to node_modules.
+     alternatively can use import inside the script tag: https://stackoverflow.com/a/77723375 -->
+<script src="@popperjs/core/dist/umd/popper.min.js"></script>
+<script src="bootstrap/dist/js/bootstrap.min.js"></script>
