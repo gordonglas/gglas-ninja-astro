@@ -3,3 +3,9 @@
 
 export const SITE_TITLE = 'gglas.ninja';
 export const SITE_DESCRIPTION = 'The personal blog of Gordon Glas';
+
+export const appSettings = {
+    formatTitle: function(pageTitle: string): string {
+        return pageTitle + " - " + SITE_TITLE;
+    }
+};
