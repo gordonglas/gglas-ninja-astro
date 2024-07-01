@@ -9,11 +9,11 @@ const posts = await getPublishedPostsByDateDesc();
 
 <!doctype html>
 <Layout
-	title={appSettings.formatTitle("Blog")}
-	description={SITE_DESCRIPTION}
-	activeMenu="Blog"
+  title={appSettings.formatTitle("Blog")}
+  description={SITE_DESCRIPTION}
+  activeMenu="Blog"
 >
-	<div class="container-fluid pt-3">
+  <div class="container-fluid pt-3">
     {
       posts.map((post) => {
         const excerpt = `${createExcerpt(post.body, 280)}...`;
@@ -37,8 +37,8 @@ const posts = await getPublishedPostsByDateDesc();
               </div>
             </div>
           </article>
-					);
-				})
+          );
+        })
     }
   </div>
 </Layout>

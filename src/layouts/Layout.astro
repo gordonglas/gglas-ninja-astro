@@ -10,14 +10,14 @@ const { title, description, activeMenu } = Astro.props;
 ---
 
 <html lang="en">
-	<head>
-		<BaseHead title={title} description={description} />
-	</head>
-	<body>
-		<Header activeMenu={activeMenu} />
-		<main>
-			<slot />
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+  <body>
+    <Header activeMenu={activeMenu} />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
 </html>
