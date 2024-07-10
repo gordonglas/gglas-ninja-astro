@@ -18,23 +18,23 @@ It was also nice to be able to see more stars late at night, since the campsite 
 
 Some photos of the the campsite and cabin:
 
-![campsite 1](glamping2022-01-campsite.jpg)
+![campsite 1 | center](glamping2022-01-campsite.jpg)
 
-![firepit 1](glamping2022-02-firepit.jpg)
+![firepit 1 | center](glamping2022-02-firepit.jpg)
 
-![firepit and cabin](glamping2022-03-firepit.jpg)
+![firepit and cabin | center](glamping2022-03-firepit.jpg)
 
 They have quite a few things, so you don't have to worry about bringing them yourself. The cabin also has an AC unit (to the left of the red fridge.)
 
-![kitchen](glamping2022-04-utils.jpg)
+![kitchen | center](glamping2022-04-utils.jpg)
 
 My son on his iPad🤣 The wife is camera-shy. But I love the big window.
 
-![windows](glamping2022-05-beds-windows.jpg)
+![windows | center](glamping2022-05-beds-windows.jpg)
 
 The toilet and shower work very well.
 
-![toilet](glamping2022-06-toilet.jpg)
+![toilet | center](glamping2022-06-toilet.jpg)
 
-![shower](glamping2022-07-shower.jpg)
+![shower | center](glamping2022-07-shower.jpg)
 

@@ -15,7 +15,7 @@ These are all basically business related, but also video game and computer relat
 
 # Disrupting The Game (by Reggie Fils-Aimé)
 
-![](disrupting-the-game-cover.png)
+![Reggie Fils-Aimé's book, Disrupting the Game | center](disrupting-the-game-cover.png)
 
 Reggie was best known for his successful role as COO at Nintendo of America.
 
@@ -30,7 +30,8 @@ You can view [his first E3 (in 2004)](https://www.youtube.com/watch?v=89GB6bC9_N
 You can imagine how the translation of that went over while he was trying to get it approved from Japanese management (Iwata and others). Actually, he mentions it in the book... In the meeting they said: *"Reggie, why are you so angry?"* 😂
 
 He got the nickname `The Regginator` from his hard-ass style, something that I believe Nintendo wasn't known for prior.
-![The Regginator](the-regginator.jpg)
+
+![The Regginator | center](the-regginator.jpg)
 
 I also liked his explaination of why a lot of western games wouldn't work well in Japan. I don't remember if he used a specific game as an example, but lets just go with Call of Duty (which I never play myself.) Because Japan is small and crowded, a lot of people live in smaller homes or appartments with their families, and so most of them have a communal living room where the TV is. So playing Call of Duty with grandma watching would be a big no-no.
 
@@ -44,7 +45,7 @@ I enjoyed his book, and some of his advice will stick with me.
 
 # Ask Iwata
 
-![](ask-iwata-cover.png)
+![Book about Satoru Iwata - Ask Iwata | center](ask-iwata-cover.png)
 
 This book is an organized collection of posts from Satoru Iwata, who was best know as the President of Nintendo Co Ltd in Japan, but he was also a skilled game programmer.
 
@@ -72,7 +73,7 @@ It was a real pleasure to read this book. Now I want to read more about Shiguru 
 
 # Steve Jobs (by Walter Isaacson)
 
-![](steve-jobs-cover.png)
+![Book about Steve Jobs | center](steve-jobs-cover.png)
 
 Now, before I start, don't consider this a negative review of the book, but rather a negative review of the person it's about. The book itself is fantastic. With that in mind...
 

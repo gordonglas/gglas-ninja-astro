@@ -23,6 +23,8 @@ Personally, I also don't really like moving my hand so far to press `ctrl+backti
 
 Follow the steps below to change the keyboard shortcuts.
 
+<br/>
+
 ## How to set the keyboard shortcuts
 
 [This superuser post](https://superuser.com/a/1343695/96637) suggests using `ctrl+k`, but this is a bad idea, because it will interfere with several existing two-part keybindings that rely on first pressing `ctrl+k`. Ironically, that conflicts with the keyboard shortcut that opens the `Keyboard Shortcut UI` itself, which is `ctrl+k, ctrl+s`. 😄

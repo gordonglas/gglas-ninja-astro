@@ -15,7 +15,7 @@ published: true
 
 While surfing the web (do people still say that?) I've seen several programmers have their shell decorated in a neat way, such as:
 
-![oh-my-posh screenshot](oh-my-posh-ex1.jpg)
+![oh-my-posh screenshot | center](oh-my-posh-ex1.jpg)
 
 I think this looks great, so I wanted to learn how to set it up.
 
@@ -23,7 +23,8 @@ I've tried several multi-tabbed terminal emulators over the years... mostly ConE
 
 So this post will show you how to setup `oh-my-posh` in git-bash in a few different terminals for Windows 10 and up. The main instructions are in the first section for `Windows Terminal`, so you should follow them first, as other sections depend on those instructions. Let's get started:
 
-<br/>
+<br/><br/>
+
 ## Oh-my-posh in git-bash in Windows Terminal
 
 * Install [Windows Terminal from the Microsoft Store](https://www.microsoft.com/store/productId/9N0DX20HK701)
@@ -62,7 +63,8 @@ eval "$(oh-my-posh --init --shell bash --config ~/AppData/Local/Programs/oh-my-p
 ```  
 * Save, exit nano, and run `source ~/.bash_profile` then you should be able to see the new prompt.  
 
- <br/>
+ <br/><br/>
+ 
 ## Oh-my-posh in PowerShell in Windows Terminal
 
 Same as above instructions for git-bash, but we need to add the oh-my-posh command and theme to our user's PowerShell `$PROFILE`.

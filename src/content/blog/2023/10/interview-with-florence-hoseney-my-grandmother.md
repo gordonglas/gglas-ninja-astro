@@ -22,8 +22,10 @@ She comes from a social class of royalty, since her great-great-grandmother was 
 Florence came to Ann Arbor, Michigan, at the age of three, after her father got fed up with the up and down economy in New York. Dunkirk's main industry was manufacturing locomotives. The town was prosperous, but when the factory shut down, the townspeople struggled. This caused her father to search for a new job. He saw an advertisement for a gardener at the University of Michigan. He had beautiful handwriting, which was probably the reason why his letter resulted in his employment at U of M's Botanical Garden. The family took a boat from Buffalo, New York, to Detroit, and then took the streetcar to Ann Arbor. They lived in a building above the gardens until they built their own house nearby. This sparked an interest for her in house building. Later, when she was about nine or ten years old, she helped build her mother's sister's house in Ann Arbor. After studying for two years as an Architect in college, she realized she wasn't getting what she wanted out of the courses, so she dropped out.
 
 <center>One of Florence's architectual drafting sets</center>
-![](florence_hoseney_drafting_set_closed.jpg)
-![](florence_hoseney_drafting_set_open.jpg)
+
+![Florence's architectual drafting set - closed | center](florence_hoseney_drafting_set_closed.jpg)
+
+![Florence's architectual drafting set - open | center](florence_hoseney_drafting_set_open.jpg)
 
 She lived on Harpst Street, and it was the 2nd house in a new neighborhood, so it was a very wide-open area at the time. There were only about 35,000 people in Ann Arbor then, compared to about 160,000 people now. (*at the time of this writing*) Since she lived in such a new neighborhood, she had to go far to play with other children, and she didn't have many friends throughout her schooling other than family itself. She said it was hard for country kids to have friends, because of all the chores that kept them busy. She started school at the age of seven, at Stone School Elementary. She enjoyed taking piano lessons around the age of nine or ten. She had a job pulling weeds, making a 25 cents and hour.
 
@@ -33,7 +35,7 @@ In junior high, she had lots of opportunities to enjoy various interests. There 
 
 <center>A skate-shaped metal prize Florence won at a ice skating meet. (Penny for size reference.)</center>
 
-![](florence_hoseney_skate_prize.jpg)
+![A skate-shaped metal prize she won at a ice skating meet | center](florence_hoseney_skate_prize.jpg)
 
 She would also ride wildly on a very fast iceboat in a nearby pond that would freeze over, so she had no fear as a child. One day while skating, she met a friend named Lila, whose mother had died, and so she was a mother to Lila.
 
@@ -41,8 +43,9 @@ She decided to go to University High School instead of Ann Arbor High (now known
 
 <center>Florence apparently also played softball. These were taken in 1938. She is next to the coach in both pictures.</center>
 
-![](florence_hoseney_softball_1938_1.jpg)
-![](florence_hoseney_softball_1938_2.jpg)
+![Florence softball team 1938 | center](florence_hoseney_softball_1938_1.jpg)
+
+![Florence softball team 1938 | center](florence_hoseney_softball_1938_2.jpg)
 
 After she dropped out of college, she visited her relatives in New York State, but her sister told her to come back, since her mother started a knit shop. As she was helping out at the knit shop, a shy, attractive man walked by to have lunch at a nearby eatery. She doesn't remember how they met, but they became friends, and he flattered her by taking her to the "J. Hop," which was the social event of the year. But just as things got going, the bombing of Pearl Harbor changed everything. The man was in the ROTC, so he was enlisted as an officer. She had then heard on the radio about a job delivering army trucks out of Detroit to the east. Her mom wasn't receiving enough yarn, so she went to Detroit and was hired on the spot. She was sent out with six or seven other drivers to drive the trucks to New Jersey and ride a train back overnight, then go back to the office, grab another truck, and so on. It took three days for a single trip. The trucks could only go 33 mph, because gas was rationed and the roads were in bad shape. There were also no heaters in the trucks and she had to work throughout the winter.
 
@@ -54,7 +57,7 @@ After her husband's death, she fell back on family and she got a job working as 
 
 <center>Florence at the University Herbarium</center>
 
-![](florence_hoseney_botanist.jpg)
+![Florence at the University Herbarium | center](florence_hoseney_botanist.jpg)
 
 After retirement at age 62, she would mushroom hunt every chance she could. She joined the Michigan Mushroom Hunter's club, which was a very sociable point in her life. Her involvement in the community had grown, which was a huge change for her, socially. This seemed to change her self-perception. She had no responsibilities to worry about, so it was a great time of enjoyment. Some face retirement as a dreaded event and then find life without employment distasteful and stressful (Furr, 1997: 158). However, Florence was able to replace work with the enjoyable activities that she now has much more time to enjoy.
 
@@ -68,7 +71,7 @@ Activity theory suggests that successful adaptation to aging occurs by staying a
 
 <center>This is just one of many many things that Florence made. A gnome.</center>
 
-![](florence_hoseney_gnome.jpg)
+![A gnome that Florence made | center](florence_hoseney_gnome.jpg)
 
 (*My wife recently surprised me by serving me a Danish pastry, and when I bit into it, I instantly noticed it was stuffed with [marzipan](https://en.wikipedia.org/wiki/Marzipan), which immediately reminded me of my grandmother, Florence. Marzipan was something she liked to make from time to time, and she would make them in shapes and colors of little fruits. Another "craft" she was great at.*)
 
@@ -82,7 +85,7 @@ An important task in old age is coming to terms with one's impending death and t
 
 ---
 
-<center>__Works Cited__</center>
+<center><b>Works Cited</b></center>
 
 Furr, LeRoy Allen. <u>Exploring Human Behavior and the Social Environment</u>.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Needham Heights, MA: Allyn &amp; Bacon, 1997.
@@ -93,7 +96,7 @@ Perry, John A. <u>Contemporary Society</u>. New York, NY: Addison-Wesley<br/>
 Sloan, Tod. <u>Life Choices: Understanding Dilemmas and Decisions</u>. Boulder, CO<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Westview Press, Inc., 1996.
 
-<center>__Image Sources__</center>
+<center><b>Image Sources</b></center>
 
 [Ann Arbor District Library](https://aadl.org/taxonomy/term/105967)  
 [University of Michigan Library](https://quod.lib.umich.edu/b/bhl/x-hs14928/HS14928?g=um-ic;lasttype=boolean;lastview=reslist;resnum=9349;size=50;sort=m_flm;start=9301;subview=detail;view=entry;rgn1=ic_all;q1=bhl)
