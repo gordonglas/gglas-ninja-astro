@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { appSettings } from '../consts';
+---
+
+<!doctype html>
+<Layout
+  title={appSettings.formatTitle("Projects")}
+  description="gglas.ninja - Projects"
+  activeMenu="Projects"
+>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 news-post">
+        <div class="card col-sm-12 px-3 shadow-sm">
+          <h2 style="margin-top:10px">Projects</h2>
+          <!-- Update date -->
+          <div class="date">Updated: July 11 2024</div>
+          <div class="news-content">
+            <p>
+              I've been converting this site from gatsby to
+              <a href="https://astro.build">Astro</a>. I'll post about my
+              conversion experience after it's complete.</p>
+
+            <p>
+              I'm gradually working on my C++ game engine, which primarily
+              targets Windows, but I've been coding it in a somewhat
+              cross-platform way. I
+              <a href="https://overworldsoft.com/news/2022/07/audio-engine-completed">finished the Audio engine</a>
+              for now (could use some cleanup/refactoring at some point),
+              and I've finally started on the graphics engine (DirectX 11.)
+            </p>
+
+            <p>
+              My photo/video album static site generator,
+              <a href="https://github.com/gordonglas/tellah-photo">Tellah</a>,
+              has been complete for some time. I still use this for my own
+              private album generation.
+            </p>
+
+            <p>
+              I also somewhat recently posted my old
+              <a href="https://github.com/gordonglas/gba-breakout">GameBoy Advance Breakout</a>
+              game source code, which is not 100% complete, but is somewhat
+              playable, and perhaps I'll finish it at some point.
+            </p>
+          </div>
+          <span class="clearfix"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
