@@ -2,7 +2,7 @@
 title: Interview with Florence Hoseney, my grandmother
 description: Interview with Florence Hoseney, my grandmother
 slug: 2023/10/interview-with-florence-hoseney-my-grandmother
-pubDate: 2023-10-26
+pubDateString: 2023/10/26
 tags:
   - Family
 published: true

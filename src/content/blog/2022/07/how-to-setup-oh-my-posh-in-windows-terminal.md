@@ -2,7 +2,7 @@
 title: How to setup oh-my-posh in Windows Terminal
 description: How to setup oh-my-posh in Windows Terminal
 slug: 2022/07/how-to-setup-oh-my-posh-in-windows-terminal
-pubDate: 2022-07-28
+pubDateString: 2022/07/28
 tags:
   - Dev
   - Setup

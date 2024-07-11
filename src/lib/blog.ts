@@ -10,7 +10,7 @@ export async function getPublishedPostsByDateDesc() {
     (post) => post.data.published || isDev
   ).sort(
     // newest posts first
-    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+    (a, b) => b.data.pubDateString.valueOf() - a.data.pubDateString.valueOf()
   );
 
   return posts;

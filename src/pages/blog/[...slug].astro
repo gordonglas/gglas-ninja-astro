@@ -30,7 +30,7 @@ const { Content } = await post.render();
         <div class="card col-sm-12 px-3 shadow-sm">
           <h2 style="margin-top:10px">{post.data.title}</h2>
           <div class="date">
-            <FormattedDate date={post.data.pubDate} />
+            <FormattedDate date={post.data.pubDateString} />
           </div>
           <div class="news-content">
             <Content />
