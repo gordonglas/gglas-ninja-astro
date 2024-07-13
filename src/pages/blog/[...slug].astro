@@ -4,7 +4,6 @@ import Layout from '../../layouts/Layout.astro';
 import Comments from '../../components/Comments.astro';
 import { SITE_DESCRIPTION, appSettings } from '../../consts';
 import FormattedDate from '../../components/FormattedDate.astro';
-import {getPublishedPostsByDateDesc, createExcerpt} from '../../lib/blog.ts';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -44,8 +43,3 @@ const { Content } = await post.render();
     </div>
   </div>
 </Layout>
-
-
-<!-- <BlogPost {...post.data}>
-  <Content />
-</BlogPost> -->
