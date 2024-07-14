@@ -1,0 +1,34 @@
+---
+import LayoutCustom from '../layouts/LayoutCustom.astro';
+import { SITE_DESCRIPTION, appSettings } from '../consts';
+
+// styles
+const pageStyles = {
+  color: "#232129",
+  padding: "96px",
+  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+}
+const headingStyles = {
+  marginTop: "0px",
+  marginBottom: "30px",
+}
+const paragraphStyles = {
+  marginBottom: "48px",
+}
+---
+
+<!doctype html>
+<LayoutCustom
+  title={appSettings.formatTitle("Link not working")}
+  description={SITE_DESCRIPTION}
+>
+  <div style={pageStyles}>
+    <h1 style={headingStyles}>Link not working</h1>
+    <p style={paragraphStyles}>
+      <img src="/img/common/status-error.jpg" class="img-fluid" alt="404 - Link not working" /><br />
+      Illustration by <a href="https://bumph.tumblr.com/post/72446275370/link-not-working">Andy Fanton</a>
+      <br /><br />
+      <a href="/">Go home</a>.
+    </p>
+  </div>
+</Layout>
