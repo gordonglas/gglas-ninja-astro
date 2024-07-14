@@ -24,14 +24,14 @@ const posts = await getPublishedPostsByDateDesc();
               <div class="col-sm-12 news-post-preview">
                 <div class="card col-sm-12 px-3 shadow-sm" style="margin-bottom:30px">
                   <h2 style="margin-top:10px">
-                    <a href={`/blog/${post.slug}`}>{post.data.title}</a>
+                    <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
                   </h2>
                   <div class="date">
                     <FormattedDate date={post.data.pubDate} />
                   </div>
                   <p class="news-content-preview" set:html={excerpt}></p>
                   <p class="read-more">
-                    <a href={`/blog/${post.slug}`}>Read more</a>
+                    <a href={`/blog/${post.slug}/`}>Read more</a>
                   </p>
                 </div>
               </div>

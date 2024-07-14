@@ -9,11 +9,11 @@ export async function GET(context) {
     description: SITE_DESCRIPTION,
     site: context.site,
     customData: `<generator>AstroJS</generator>`,
-    trailingSlash: false,
+    trailingSlash: true,
     items: posts.map((post) => ({
       ...post.data,
       description: `${createExcerpt(post.body, 280)}...`,
-      link: `/blog/${post.slug}`,
+      link: `/blog/${post.slug}/`,
     })),
   });
 }
