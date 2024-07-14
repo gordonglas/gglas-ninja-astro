@@ -1,7 +1,7 @@
 ---
 title: Nintendo/Apple business book reviews - October 2022
 description: Nintendo/Apple business book reviews - October 2022
-pubDateString: 2022/10/24
+pubDate: 2022/10/24
 published: true
 tags:
   - Apple
