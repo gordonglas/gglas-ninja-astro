@@ -1,0 +1,21 @@
+---
+// responsive image component with optional link
+
+import RespImgInternal from './RespImgInternal.astro';
+
+interface Props {
+  src: string; // original image somewhere under /src used to build responsive images from.
+  alt: string; // img alt attribute.
+  publicurl?: string; // optional url to image in public folder for link.
+}
+
+const { src, alt, publicurl = '' } = Astro.props;
+---
+
+{publicurl != '' ? (
+<a href={publicurl} target="_blank">
+  <RespImgInternal src={src} alt={alt} />
+</a>
+) : (
+<RespImgInternal src={src} alt={alt} />
+)}
