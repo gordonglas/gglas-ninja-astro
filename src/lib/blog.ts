@@ -38,7 +38,7 @@ export function createExcerpt(body: string, maxChars: number) {
   return parser
     .render(body) // render markdown as html (Note: any mdx code still exists after render())
     .split('\n')  // split into array of lines
-    .slice(0, 10) // take first 10 lines (might need more if post has lots of leading mdx)
+    .slice(0, 100) // take first 100 lines (might need more if post has lots of leading mdx)
     .map((str: string) => {
       let s = stripHtml(str);
       s = stripMdx(s);

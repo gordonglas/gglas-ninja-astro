@@ -1,27 +1,27 @@
 ---
-import { Picture } from 'astro:assets';
+import { Image } from 'astro:assets';
 
 interface Props {
   src: string;
   alt: string;
+  width: number;
 }
 
-const { src, alt } = Astro.props;
+const { src, alt, width } = Astro.props;
 
-//console.log(src); -->
-//{
-//  src: '/content/blog/2023/10/florence_hoseney_softball_1938_test.jpg',
-//  width: 4000,
-//  height: 3178,
-//  format: 'jpg'
-//}
+// calculate widths attribute
+const maxWidth: number = Math.round(width > 1000 ? 1000 : width);
+let widths: number[] = [];
+widths[0] = Math.round(maxWidth * .3);
+widths[1] = Math.round(maxWidth * .6);
+widths[2] = maxWidth;
 
-// img tag sizes attribute: https://www.dofactory.com/html/img/sizes
+let sizes: string = `(max-width: ${maxWidth}px) 100vw, ${maxWidth}px`;
+
 ---
 
 <span class="astro-blog-image">
-  <Picture src={src} alt={alt} formats={['webp', 'jpg']}
-      width="1000" widths={[600, 1000]}
-      style="max-width:100%; height:auto;"
-      sizes="(max-width: 700px) 600px, 1000px" />
+  <Image src={src} alt={alt}
+      widths={widths}
+      sizes={sizes} />
 </span>

@@ -193,3 +193,17 @@ img[alt*="| center"] {
   margin-left: auto;
   margin-right: auto;
 }
+
+.astro-blog-image img {
+  /* responsive image */
+  max-width:100%;
+  height:auto;
+
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.hide {
+  visibility: hidden;
+  display: none;
+}

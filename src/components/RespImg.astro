@@ -7,15 +7,16 @@ interface Props {
   src: string; // original image somewhere under /src used to build responsive images from.
   alt: string; // img alt attribute.
   publicurl?: string; // optional url to image in public folder for link.
+  width: number; // max width of the image
 }
 
-const { src, alt, publicurl = '' } = Astro.props;
+const { src, alt, publicurl = '', width } = Astro.props;
 ---
 
 {publicurl != '' ? (
 <a href={publicurl} target="_blank">
-  <RespImgInternal src={src} alt={alt} />
+  <RespImgInternal src={src} alt={alt} width={width} />
 </a>
 ) : (
-<RespImgInternal src={src} alt={alt} />
+<RespImgInternal src={src} alt={alt} width={width} />
 )}
