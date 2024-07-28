@@ -1,9 +1,4 @@
 ---
-// bootstrap css
-//import 'bootstrap/dist/css/bootstrap.min.css'  // default light theme
-import '../styles/bootstrap5-dark.css';  // our custom built darkly theme
-import 'bootstrap-icons/font/bootstrap-icons.css';
-
 interface Props {
   title: string;
   description: string;
@@ -20,6 +15,15 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <meta name="generator" content={Astro.generator} />
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap5-dark.css" />
+<link rel="stylesheet" type="text/css" href="/css/bootstrap-icons/bootstrap-icons.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/site.css" />
+<link rel="stylesheet" type="text/css" href="/css/theme-dark.css" />
+<!-- TODO: when everything is stable, minify the three css files into one. -->
+<!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap5-site-theme-min.css" />
+<link rel="stylesheet" type="text/css" href="/css/bootstrap-icons/bootstrap-icons.min.css" /> -->
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
@@ -47,6 +51,8 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 
 <!-- For Mastodon link verification: https://docs.joinmastodon.org/user/profile/#verification -->
 <link href="https://mastodon.gamedev.place/@kefka" rel="me" />
+
+
 
 <!-- bootstrap js -->
 <!-- notice how these are relative paths to node_modules.
