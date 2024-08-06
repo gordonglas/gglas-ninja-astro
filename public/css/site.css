@@ -194,7 +194,8 @@ img[alt*="| center"] {
   margin-right: auto;
 }
 
-.astro-blog-image img {
+.astro-blog-image img,
+.news-content img {
   /* responsive image */
   max-width:100%;
   height:auto;
