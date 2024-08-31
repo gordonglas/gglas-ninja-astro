@@ -20,32 +20,42 @@ const stripHtml = (html: string) => {
   return html.replace(/<\/?[^>]+(>|$)/g, '');
 };
 
-// Removes leading "import" lines (allowed in mdx).
-// Obviously this means our mdx is somewhat limited,
-// but this can be adjusted to strip out more, if needed.
-// Alternatively, could try: https://stackoverflow.com/a/77537167
-const stripMdx = (mdx: string) => {
-  if (mdx.trim().startsWith('import ')) {
-    return '';
-  }
-  return mdx;
+// Strips empty lines, import statements, hidden text and html tags
+const cleanMdxForExcerpt = (mdx: string) => {
+  let raw_lines: string[] = mdx.split('\n');
+  let lines: string[] = [];
+  raw_lines.forEach((line: string) => {
+    line = line.trim();
+    if (line != '' &&                           // empty line
+        !line.startsWith('import ') &&          // import statement
+        !line.startsWith('<span class="hide">') // hidden text
+    ) {
+      // must strip html before we render the mdx as html,
+      // otherwise html tags included in the mdx will be html-encoded.
+      line = stripHtml(line);
+      if (line != '') {
+        lines.push(line);
+      }
+    }
+  });
+
+  return lines.join('\n');
 };
 
-// Modified verison of:
-// https://www.paulie.dev/posts/2023/09/how-to-create-excerpts-with-astro/
 export function createExcerpt(body: string, maxChars: number) {
+  let cleaned = cleanMdxForExcerpt(body);
   const parser = new MarkdownIt();
   return parser
-    .render(body) // render markdown as html (Note: any mdx code still exists after render())
+    .render(cleaned) // render markdown as html
     .split('\n')  // split into array of lines
-    .slice(0, 100) // take first 100 lines (might need more if post has lots of leading mdx)
+    .slice(0, 30) // take first 30 lines
     .map((str: string) => {
+      // strip html again because we just converted the mdx to html
       let s = stripHtml(str);
-      s = stripMdx(s);
       return s.split('\n'); // return array
     })
     .flat()     // concat arrays
     .join(' ')  // concat into string
     .substring(0, maxChars) // take up to maxChars
-    .trim();  // trim whitespace
+    .trim();    // trim whitespace
 };
