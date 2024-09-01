@@ -63,10 +63,6 @@
   overflow: hidden;
 }
 
-.news-content h1 {
-  margin-bottom: 30px;
-}
-
 .news-content p {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -185,6 +181,11 @@ _:-moz-tree-row(hover), select.form-control {
   text-align: center;
 }
 
+.astro-blog-image {
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
 .astro-blog-image a {
   margin: 0 auto;
 }
@@ -194,9 +195,6 @@ _:-moz-tree-row(hover), select.form-control {
   display: inline;
   max-width: 100%;
   height: auto;
-
-  /* margin-top:30px;
-  margin-bottom:30px; */
 }
 
 .hide {
