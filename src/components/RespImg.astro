@@ -11,12 +11,28 @@ interface Props {
 }
 
 const { src, alt, publicurl = '', width } = Astro.props;
+
+let img_wrapper_class = 'astro-blog-image';
+let alt_text = alt;
+if (alt.includes('| center')) {
+  // css must be able to center higher up the DOM hierarchy
+  // ..not on the image itself. This fixes a problem where
+  // the anchor tag includes the horizontal overflow
+  img_wrapper_class += ' center-image';
+
+  // Remove the '| center' from alt just to keep it clean.
+  alt_text = alt.replace('| center', '').trim();
+}
 ---
 
 {publicurl != '' ? (
-<a href={publicurl} target="_blank">
-  <RespImgInternal src={src} alt={alt} width={width} />
-</a>
+<div class={img_wrapper_class}>
+  <a href={publicurl} target="_blank">
+    <RespImgInternal src={src} alt={alt_text} width={width} />
+  </a>
+</div>
 ) : (
-<RespImgInternal src={src} alt={alt} width={width} />
+<div class={img_wrapper_class}>
+  <RespImgInternal src={src} alt={alt_text} width={width} />
+</div>
 )}

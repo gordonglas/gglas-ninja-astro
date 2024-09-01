@@ -69,6 +69,10 @@
   overflow: hidden;
 }
 
+.news-content h1 {
+  margin-bottom: 30px;
+}
+
 .news-content p, .news-content span span.gatsby-resp-image-wrapper {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -182,26 +186,23 @@ _:-moz-tree-row(hover), select.form-control {
   background: url(/img/gn/gn-ninja.png) 0 0;
 }
 
-/* Allows for centering an image in markdown,
-   without wrapping in html (which causes problems in Obsidian.)
-   Example md:
-    ![My great img | center](image.png)
-   See: https://www.reddit.com/r/ObsidianMD/comments/v1fs0f/comment/iamghtr/
- */
-img[alt*="| center"] {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.center-image {
+  margin: 0 auto;
+  text-align: center;
 }
 
-.astro-blog-image img,
-.news-content img {
-  /* responsive image */
-  max-width:100%;
-  height:auto;
+.astro-blog-image a {
+  margin: 0 auto;
+}
 
-  margin-top:30px;
-  margin-bottom:30px;
+.astro-blog-image a img {
+  /* responsive image */
+  display: inline;
+  max-width: 100%;
+  height: auto;
+
+  /* margin-top:30px;
+  margin-bottom:30px; */
 }
 
 .hide {
