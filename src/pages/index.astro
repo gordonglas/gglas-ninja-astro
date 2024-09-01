@@ -1,8 +1,8 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import { SITE_DESCRIPTION, appSettings } from '../consts';
-import FormattedDate from '../components/FormattedDate.astro';
-import {getPublishedPostsByDateDesc, createExcerpt} from '../lib/blog.ts';
+import Layout from '@layouts/Layout.astro';
+import { SITE_DESCRIPTION, appSettings } from '@root/consts';
+import FormattedDate from '@components/FormattedDate.astro';
+import {getPublishedPostsByDateDesc, createExcerpt} from '@lib/blog.ts';
 
 const posts = await getPublishedPostsByDateDesc();
 ---
