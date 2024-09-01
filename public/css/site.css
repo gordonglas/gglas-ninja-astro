@@ -11,12 +11,6 @@
   line-height: 1.2;
 }
 
-/* gatsby overrides */
-
-.news-content img.gatsby-resp-image-image {
-  box-shadow: unset !important;
-}
-
 /* custom stuff */
 
 .social-icon::before {
@@ -73,7 +67,7 @@
   margin-bottom: 30px;
 }
 
-.news-content p, .news-content span span.gatsby-resp-image-wrapper {
+.news-content p {
   margin-top: 30px;
   margin-bottom: 30px;
 }
