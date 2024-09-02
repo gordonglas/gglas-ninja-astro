@@ -1,6 +1,6 @@
 # gglas.ninja
 
-Code for Astro version of blog [https://gglas.ninja](https://gglas.ninja) (Work in progress)
+Code for Astro version of blog [https://gglas.ninja](https://gglas.ninja)
 
 ## Astro Starter Kit: Blog
 
