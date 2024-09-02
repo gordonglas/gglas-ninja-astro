@@ -58,4 +58,4 @@ The markdown frontmatter `pubDate` field maps directly to a javascript `date` ty
 
 Overall I'm happy with using Astro. When I run into a problem, it usually has some setting I can tweak or config I can set to get it working for my use-case. The build is pretty fast. I also like how it's not tied to any single framework... it can use React, Vue, Preact, Svlte, or Solid, etc. Astro's default is very similar to React, which I'm most familiar with, so I just stuck with the default.
 
-Hopefully Astro will last longer than Gatsby, so I won't don't have to do another one of these "Site is now using {new-popular-framework-here}" posts anytime soon.
+Hopefully Astro will last longer than Gatsby, so I won't have to write another one of these "Site is now using {new-popular-framework-here}" posts anytime soon.
