@@ -1,7 +1,7 @@
 import MarkdownIt from 'markdown-it';
 import { getCollection } from 'astro:content';
 
-export async function getPublishedPostsByDateDesc() {
+export async function getPublishedPostsByDateDesc(max?: number) {
   const isDev = import.meta.env.DEV;
 
   const posts = (await getCollection('blog'))
@@ -11,7 +11,7 @@ export async function getPublishedPostsByDateDesc() {
   ).sort(
     // newest posts first
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-  );
+  ).slice(0, max);  // take up to max (or all if max is undefined)
 
   return posts;
 }

@@ -3,6 +3,8 @@
 
 export const SITE_TITLE = 'gglas.ninja';
 export const SITE_DESCRIPTION = 'The personal blog of Gordon Glas';
+export const MAX_POSTS_INDEX = 8;
+export const MAX_POSTS_RSS  = 50;
 
 export const appSettings = {
   formatTitle: function(pageTitle: string): string {

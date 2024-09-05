@@ -68,6 +68,10 @@
   margin-bottom: 30px;
 }
 
+.more-posts-link h2 a {
+  color: #123551;
+}
+
 .video-container {
   width: 100%;
   margin-left: auto;

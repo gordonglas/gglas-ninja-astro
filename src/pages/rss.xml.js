@@ -1,9 +1,9 @@
 import rss from '@astrojs/rss';
 import {getPublishedPostsByDateDesc, createExcerpt} from '@lib/blog';
-import { SITE_TITLE, SITE_DESCRIPTION } from '@root/consts';
+import { SITE_TITLE, SITE_DESCRIPTION, MAX_POSTS_RSS } from '@root/consts';
 
 export async function GET(context) {
-  const posts = await getPublishedPostsByDateDesc();
+  const posts = await getPublishedPostsByDateDesc(MAX_POSTS_RSS);
   return rss({
     title: `${SITE_TITLE} - blog`,
     description: SITE_DESCRIPTION,

@@ -1,10 +1,10 @@
 ---
 import Layout from '@layouts/Layout.astro';
-import { SITE_DESCRIPTION, appSettings } from '@root/consts';
+import { SITE_DESCRIPTION, MAX_POSTS_INDEX, appSettings } from '@root/consts';
 import FormattedDate from '@components/FormattedDate.astro';
 import {getPublishedPostsByDateDesc, createExcerpt} from '@lib/blog.ts';
 
-const posts = await getPublishedPostsByDateDesc();
+const posts = await getPublishedPostsByDateDesc(MAX_POSTS_INDEX);
 ---
 
 <!doctype html>
@@ -40,5 +40,13 @@ const posts = await getPublishedPostsByDateDesc();
           );
         })
     }
+
+    <div class="row">
+      <div class="col-sm-12 px-3 news-post-preview more-posts-link">
+        <h2>
+          <a href="/all-posts/">More posts</a>
+        </h2>
+      </div>
+    </div>
   </div>
 </Layout>
