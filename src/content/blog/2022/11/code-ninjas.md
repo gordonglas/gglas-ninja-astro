@@ -4,13 +4,14 @@ description: Code Ninjas - November 2022
 slug: 2022/11/code-ninjas
 pubDate: 2022/11/24
 tags:
+  - Dev
   - Family
-published: false
+published: true
 ---
 
 So we had our son take a tour of [Code Ninjas](https://www.codeninjas.com) yesterday.
 
-They have him "play a game" where he has to come up with the JavaScript function calls that move his player through a dungeon and attack an ogre through 5 levels (just a small portion of the game played for the tour.) They said he did really well for his age, which I'm honestly not surprised, because Anna and I have let him basically watch adult YouTube for a long time, where he has been able to look at Roblox Studio tutorials. (YouTube is surprisingly good at serving age appropriate content, although there have been instances early on where he watched videos that had a lot of swearing in it, so he learned all that early on.😅 Honestly though, I think it's better that he's aware of these words early on, and knows to not "join in" when someone else says them later on.)
+They have him "play a game" where he has to come up with the JavaScript function calls that move his player through a dungeon and attack an ogre through 5 levels (just a small portion of the game played for the tour.) They said he did really well for his age, which I'm honestly not surprised, because my wife and I have let him basically watch adult YouTube for a long time, where he has been able to look at Roblox Studio tutorials. (YouTube is somewhat good at serving age appropriate content, although there have been instances early on where he watched videos that had a lot of swearing in it, so he learned all that early on.😅 Honestly though, I think it's better that he's aware of these words early on, and knows to not "join in" when someone else says them later on.)
 
 I've also helped him (really only a little bit) learn how to use Roblox Studios and helped him with writing code, or when he's stuck in a tutorial.
 
