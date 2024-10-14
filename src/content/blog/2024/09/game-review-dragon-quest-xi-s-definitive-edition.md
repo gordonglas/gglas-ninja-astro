@@ -30,4 +30,4 @@ The story is superb. I won't spoil anything though. I'll just say the main quest
 
 Nothing is missable in the game, which is a pretty amazing feat, considering just how large and long the game is.
 
-My first JRPG was Dragon Warrior 1 on the NES. It blew me away and I've loved the series ever sense. After playing through DQ11S, I'm really looking forward to 12, as well as the upcoming HD-2D remakes of the Erdrick trilogy.
+My first JRPG was Dragon Warrior 1 on the NES. It blew me away and I've loved the series ever since. After playing through DQ11S, I'm really looking forward to 12, as well as the upcoming HD-2D remakes of the Erdrick trilogy.
