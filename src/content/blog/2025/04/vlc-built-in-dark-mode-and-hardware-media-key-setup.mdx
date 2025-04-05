@@ -1,0 +1,64 @@
+---
+title: VLC built-in dark-mode and hardware media key setup
+description: VLC built-in dark-mode and hardware media key setup
+slug: 2025/04/vlc-built-in-dark-mode-and-hardware-media-key-setup
+pubDate: 2025/04/05
+tags:
+  - Setup
+  - VLC
+published: true
+---
+
+import RespImg from '@components/RespImg.astro';
+import vlc_built_in_dark_mode from 'vlc-built-in-dark-mode.png';
+import vlc_in_windows11_universal_media_control from 'vlc-in-windows11-universal-media-control.png';
+
+I wanted to share my VLC setup.  
+For a long time I've wanted VLC to have a dark mode... not by using some weird shaped custom skin, but just the default theme with a native/built-in dark mode. Fortunately, native dark mode is now included in the nightly builds in VLC 3.0 thanks to [this person on reddit](https://www.reddit.com/r/VLC/comments/1f03nhz/i_have_created_a_native_dark_mode_for_vlc_30/).
+
+(***Warning:** there's a comment there from a person who has you download DLLs from a random google drive link, so you can use dark mode in a non-nightly build... But if you want to go that route, do it at your own risk. Personally, I wouldn't trust random unofficial binaries - Not only that, but those files might not get updated along with VLC updates doing it that way, and they only work with 64-bit versions of VLC. The following solution below uses the nightly installers from the official, trusted site. That said, these are still nightly builds, and might not be tested as well, so things could be broken. In practice though, I haven't seen that yet.*)  
+
+Detailed instructions are as follows:
+
+## How to use built-in dark mode in VLC
+
+Note that these instructions assume you're on Windows 10+. I haven't tested other platforms.
+Also, at the time of this writing, the current non-nightly stable build is `3.0.21`. According to the person on reddit, dark mode will be included in the next stable version `3.0.22`, so first check if that is available, and if so, use that instead of downloading a nightly build and follow the last couple steps to enable dark mode.
+
+* Go to [VLC nightly builds](https://nightlies.videolan.org/)
+* Make sure you click one of the `VLC 3.0` links. (I haven't tested 4.0.) Typically you'll want the 64 bit Windows version, unless you have a 32 bit version of Windows. Try downloading the latest msi, install, and run VLC.
+* In VLC, click the `Tools` menu -> `Preferences`.
+* Check the checkbox next to `Use a dark palette`, click `Save`, and `restart VLC`.
+
+Note that you'll probably get prompted to update from time to time to 4.0, but you should be able to disable the update check, if desired.
+
+Here's what it looks like:
+
+<span class="hide">--IMAGE-- vlc-built-in-dark-mode.png</span>
+<RespImg src={vlc_built_in_dark_mode} alt="vlc-built-in-dark-mode-screenshot | center" publicurl="/img/blog/2025/04/vlc-built-in-dark-mode.png" width="635" />
+
+<br/><br/>
+
+## How to get hardware media keys working with VLC, along with the Windows Universal Media Controls
+
+Most keyboards these days have built-in dedicated keys (usually on Function Keys) for common media player operations, such as a Play/Pause toggle, Previous and Next track buttons, etc. These are called `Hardware Media Keys`, and you can configure VLC to use them even when the VLC window is not the currently active window (not in-focus).
+
+This can be a little bit more tricky to set up, especially getting the Media Keys to work globally (when VLC is not in-focus). Your experience may vary. But here's how I got it working on my Windows 11 machine. Note that by doing this, you might be able to use VLC in the `Windows Universal Media Controls`, which looks like this in Windows 11. In Windows 11, you can get to it by clicking on the volume tray icon on in the taskbar while a supported media player is playing something.
+
+<span class="hide">--IMAGE-- vlc_in_windows11_universal_media_control.png</span>
+<RespImg src={vlc_in_windows11_universal_media_control} alt="vlc-in-windows11-universal-media-control-screenshot | center" publicurl="/img/blog/2025/04/vlc-in-windows11-universal-media-control.png" width="378" />
+
+You may have seen something else using the Universal Media Controls. I use YouTube in Firefox, so that's what was showing there previously for me.
+
+To get both Hardware Media Key and Universal Media Controls support working in VLC, you'll want to install this third-party VLC plugin which adds support for SMTC.  
+[https://github.com/spmn/vlc-win10smtc](https://github.com/spmn/vlc-win10smtc)  
+Follow it's instructions, then restart VLC.  
+You should now be able to use your Media Keys on your keyboard to control VLC, at least while the VLC window is in-focus. If that's good enough for you, then you don't really need to do anything more. But if you want the Media Keys to work even when VLC is not in-focus, and it's not working that way, then read on. (But this is where things get more involved and the instructions may not work for your case.)
+
+The problem with the Media Keys not working for VLC when VLC is not in-focus, is that some other app(s) are using/trapping the keys globally, and it might not be easy to find out which app it is. For me, it was actually `Edge` causing the problem (which also has a setting that affects the `Movies & TV` app), even though I don't use Edge. I also disabled Hardware Media Keys in Firefox, since that was what I was seeing being used by the Universal Media Controls. So let me tell you how to disable it in those apps:
+
+If you have `Firefox`, you can disable Hardware Media Keys by opening `about:config`, and search for and set `media.hardwaremediakeys.enabled` to `false`.
+
+Open `Edge`, navigate to the flags page: `edge://flags`, search flags for `media key` to find the flag for `Hardware Media Key Handling` and set it to `Disabled`. Restart Edge, then close it.
+
+Finally, restart VLC and test again. If media keys still don't work when VLC is not in-focus, then there is probably still another app you might have to try to find and disable it's setting for it. Also, hopefully you can now see VLC being used in the Universal Media Controls widget when playing music files in VLC.
